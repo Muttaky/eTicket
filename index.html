@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eTicket</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header  class="p-40 pt-0 pb-0">
+        <nav>
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                  <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                    </div>
+                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                      <li><a>Home</a></li>
+                      <li><a>About</a></li>
+                      <li><a>Destination</a></li>
+                      <li><a>Search</a></li>
+                    </ul>
+                  </div>
+                  <a class="btn btn-ghost text-xl">eTicket</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1">
+                    <li><a>Home</a></li>
+                    <li><a>About</a></li>
+                    <li><a>Destination</a></li>
+                    <li><a>Search</a></li>
+                  </ul>
+                </div>
+                <div class="navbar-end">
+                  <a class="btn">Bus <img src="images/bus-icon.png" alt=""></a>
+                </div>
+              </div>   
+        </nav>
+        <section>
+            <div class="hero min-h-screen" style="background-image: url(images/banner.png);">
+                <div class="hero-overlay bg-opacity-60"></div>
+                <div class="hero-content text-center text-neutral-content">
+                  <div class="max-w-md">
+                    <h1 class="mb-5 text-5xl font-bold"> End to End Travel with eTicket</h1>
+                    <p class="mb-5">eTicket is a digital platform
+                      to make your daily community better</p>
+                    <button onClick="document.getElementById('middle').scrollIntoView();"class="btn btn-success">Buy Tickets</button>
+
+                    
+
+                  </div>
+                  
+                </div>
+<div class="mt-80">                <div class="stats shadow mt-80 ">
+  
+  <div class="stat">
+    <div class="stat-figure text-secondary">
+     <img src="images/people.png" alt="">
+    </div>
+    <div class="stat-title">Registered users</div>
+    <div class="stat-value">500K+</div>
+  </div>
+  
+  <div class="stat">
+    <div class="stat-figure text-secondary">
+<img src="images/ticket-cupon.png" alt="">
+    </div>
+    <div class="stat-title">Tickets sold</div>
+    <div class="stat-value">1.7 lac</div>
+  </div>
+  
+  <div class="stat">
+    <div class="stat-figure text-secondary">
+<img src="images/stoppage.png" alt="">
+    </div>
+    <div class="stat-title">Rental partners</div>
+    <div class="stat-value">80K+</div>
+  </div></div>
+                  
+                </div>
+              </div>
+              
+        </section>
+        
+        <section>
+          <div class="hero bg-base-200">
+            <div class="hero-content text-center">
+              <div class="max-w-md">
+                <h1 class="text-center">Best offers for you</h1><br><br><br>
+                <div class="stats bg-primary text-primary-content">
+  
+                  <div class="stat">
+                    <div class="stat-title">coupon code</div>
+                    <div class="stat-value">15%OFF</div>
+                    <div class="stat-actions">
+                      <button class="btn btn-sm btn-success">NEW15</button>
+                    </div>
+                  </div>
+  
+                  <div class="stat">
+                    <div class="stat-title">coupon code</div>
+                    <div class="stat-value">20%OFF</div>
+                    <div class="stat-actions">
+                      <button class="btn btn-sm btn-success">COUPLE20</button>
+                    </div>
+                  </div>
+                  
+
+                  
+                </div>
+                <br><br><br>
+                <button class="btn btn-success">See All Offers</button>
+              </div>
+            </div>
+          </div>
+
+        </section>
+    </header>
+    <hr style="height: 10px;background-color: green;border-radius: 5px;" class="ml-40 mr-40" >
+    <main  class="p-40 pt-0">
+        <section>
+
+          <div class="hero min-h-screen bg-base-200">
+            <div class="hero-content text-center">
+              <div class="max-w-md">
+                <h1 class="text-5xl font-bold">eTicket</h1>
+                <p class="py-6">Cheap & convenient! eTicket is a digital platform...
+                  eTicket will make your daily community better with best quality travelling experience..</p>
+                <div class="flex w-full">
+                  <div class="grid h-full flex-grow card bg-base-300 rounded-box place-items-center"><div class="overflow-x-auto">
+                    <table class="table">
+                      <!-- head -->
+                      <thead>
+                        <tr>
+                          <th></th>
+                          <th><img src="images/bus-logo.png" alt=""> eParibahan
+                          <p>e009 _AC</p></th>
+                          <th></th>
+                          <th class="text-green-600"><img src="images/seat-green.png" alt=""><span id="left">40</span> seats left</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <!-- row 1 -->
+                        <tr>
+                          <th></th>
+                          <td>Route</td>
+                          <td></td>
+                          <td>Dhaka-Sylhet</td>
+                        </tr>
+                        <!-- row 2 -->
+                        <tr>
+                          <th></th>
+                          <td>Departure Time</td>
+                          <td></td>
+                          <td>9:00 AM</td>
+                        </tr>
+                        <!-- row 3 -->
+                        <tr>
+                          <th></th>
+                          <td><button class="btn">Boarding point-Luxmipur</button></td>
+                          <td><button class="btn">Dropping point-Bogura</button></td>
+                          <td><button class="btn">Est.Time-11 hour</button></td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div></div>
+                  <div class="divider divider-horizontal">O</div>
+                  <div class="grid h-70 flex-grow card bg-base-300 rounded-box"><img class="mt-20" src="images/fare.png" alt=""> 550Taka per seat</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section  id="middle">
+          <div class="flex flex-col w-full lg:flex-row">
+            <div class="grid flex-grow  card bg-base-300 rounded-box place-items-center"><div class="overflow-x-auto">
+              <table class="table table-xs">
+                <thead>
+                  <tr>
+                    <th><img src="images/seat-green.png" alt="">Available</th> 
+                    <th></th> 
+                    <th></th> 
+                    <th></th> 
+                    <th><img src="images/seat-green-filled.png" alt="">Selected</th> 
+                  </tr>
+                </thead> 
+                <tbody>
+                  <tr>
+                    <th></th> 
+                    <td></td> 
+                    <td></td> 
+                    <td></td> 
+                    <td><img src="images/driver.png" alt=""></td>
+                  </tr>
+                  <tr>
+                    <th>A</th> 
+                    <td><button id="A1"  class="btn btn-sm">A1</button></td> 
+                    <td><button id="A2"  class="btn btn-sm">A2</button></td> 
+                    <td><button id="A3" class="btn btn-sm">A3</button></td> 
+                    <td><button id="A4" class="btn btn-sm">A4</button></td>
+                  </tr>
+                  <tr>
+                    <th>B</th> 
+                    <td><button id="B1" class="btn btn-sm">B1</button></td> 
+                    <td><button id="B2" class="btn btn-sm">B2</button></td> 
+                    <td><button id="B3" class="btn btn-sm">B3</button></td> 
+                    <td><button id="B4" class="btn btn-sm">B4</button></td>
+                  </tr>
+                  <tr>
+                    <th>C</th> 
+                    <td><button id="C1" class="btn btn-sm">C1</button></td> 
+                    <td><button id="C2" class="btn btn-sm">C2</button></td> 
+                    <td><button id="C3" class="btn btn-sm">C3</button></td> 
+                    <td><button id="C4" class="btn btn-sm">C4</button></td>
+                  </tr>
+                  <tr>
+                    <th>D</th> 
+                    <td><button id="D1" class="btn btn-sm">D1</button></td> 
+                    <td><button id="D2" class="btn btn-sm">D2</button></td> 
+                    <td><button id="D3" class="btn btn-sm">D3</button></td> 
+                    <td><button id="D4" class="btn btn-sm">D4</button></td>
+                  </tr>
+                  <tr>
+                    <th>E</th> 
+                    <td><button id="E1" class="btn btn-sm">E1</button></td> 
+                    <td><button id="E2" class="btn btn-sm">E2</button></td> 
+                    <td><button id="E3" class="btn btn-sm">E3</button></td> 
+                    <td><button id="E4" class="btn btn-sm">E4</button></td>
+                  </tr>
+                  <tr>
+                    <th>F</th> 
+                    <td><button id="F1" class="btn btn-sm">F1</button></td> 
+                    <td><button id="F2" class="btn btn-sm">F2</button></td> 
+                    <td><button id="F3" class="btn btn-sm">F3</button></td> 
+                    <td><button id="F4" class="btn btn-sm">F4</button></td>
+                  </tr>
+                  <tr>
+                    <th>G</th> 
+                    <td><button id="G1" class="btn btn-sm">G1</button></td> 
+                    <td><button id="G2" class="btn btn-sm">G2</button></td> 
+                    <td><button id="G3" class="btn btn-sm">G3</button></td> 
+                    <td><button id="G4" class="btn btn-sm">G4</button></td>
+                  </tr>
+                  <tr>
+                    <th>H</th> 
+                    <td><button id="H1"
+                     class="btn btn-sm">H1</button></td> 
+                    <td><button id="H2" class="btn btn-sm">H2</button></td> 
+                    <td><button id="H3" class="btn btn-sm">H3</button></td> 
+                    <td><button id="H4" class="btn btn-sm">H4</button></td>
+                  </tr>
+                  <tr>
+                    <th>I</th> 
+                    <td><button id="I1" class="btn btn-sm">I1</button></td> 
+                    <td><button id="I2" class="btn btn-sm">I2</button></td> 
+                    <td><button id="I3" class="btn btn-sm">I3</button></td> 
+                    <td><button id="I4" class="btn btn-sm">I4</button></td>
+                  </tr>
+                  <tr>
+                    <th>J</th> 
+                    <td><button id="J1" class="btn btn-sm">J1</button></td> 
+                    <td><button id="J2" class="btn btn-sm">J2</button></td> 
+                    <td><button id="J3" class="btn btn-sm">J3</button></td> 
+                    <td><button id="J4" class="btn btn-sm">J4</button></td>
+                  </tr>
+              </table>
+            </div></div> 
+            <div class="divider lg:divider-horizontal"></div> 
+            <div class="grid flex-grow h-full card bg-base-300 rounded-box place-items-center"><div class="overflow-x-auto">
+              <table class="table">
+                <!-- head -->
+                <thead>
+                  <tr>
+                    <th></th>
+                    <th>Seat <span id="seat" class="bg-success p-2">0</span></th>
+                    <th>Class</th>
+                    <th>Price</th>
+                  </tr>
+                </thead>
+                <tbody id="tab">
+
+                </tbody>
+                <tfoot>
+                  <tr>
+                    <th></th>
+                    <td>Total after discount!</td>
+                    <td></td>
+                    <td>BDT <span id="last">00</span></td>
+                  </tr>
+                </tfoot>
+                <tfoot>
+                  <tr>
+                    <th></th>
+                    <td>Total Price</td>
+                    <td></td>
+                    <td>BDT <span id="bdt">00</span></td>
+                  </tr>
+                </tfoot>
+                <tfoot>
+                  <tr>
+                    <th></th>
+                    <td><input id="coupon" type="text" placeholder="Have any coupon?" class="input input-bordered w-full max-w-xs" /></td>
+                    <td><button id="ap" class="btn btn-success">Apply Coupon</button></td>
+                    <td></td>
+                  </tr>
+                </tfoot>
+              </table>
+              <br>
+              <hr>
+              <br>
+              <label class="form-control w-full max-w-xs">
+                <div class="label">
+                  <span class="label-text">Passenger Name*</span>
+         
+                </div>
+                <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs" />
+              </label>
+              <label class="form-control w-full max-w-xs">
+                <div class="label">
+                  <span class="label-text">Phone Number*</span>
+         
+                </div>
+                <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs" />
+              </label>
+              <label class="form-control w-full max-w-xs">
+                <div class="label">
+                  <span class="label-text">Email ID</span>
+         
+                </div>
+                <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs" />
+              </label>
+              <br>
+           <!-- You can open the modal using ID.showModal() method -->
+<button class="btn" onclick="my_modal_4.showModal()">NEXT</button>
+<dialog id="my_modal_4" class="modal">
+  <div class="modal-box w-11/12 max-w-5xl"><img src="images/success.png" alt="">
+    <h3 class="font-bold text-lg">Success</h3>
+    <p class="py-4">Thank you for booking seats
+      <br>
+      you will find a confirmation soon!
+    </p>
+    <div class="modal-action">
+      <form method="dialog">
+        <!-- if there is a button, it will close the modal -->
+        <button class="btn">Continue</button>
+      </form>
+    </div>
+  </div>
+</dialog>
+
+              
+            </div><br><a>Terms & condition</a>
+            <a>Cancellation policy</a></div>
+          </div>
+        </section>
+    </main>
+    <footer>
+      <footer class="footer p-10 bg-neutral text-neutral-content">
+        <nav>
+          <h6 class="footer-title">eTicket</h6> 
+          <a class="link link-hover">eTicket is a digital platform <br>to make your daily community better</a>
+        </nav> 
+ 
+        <nav>
+
+          <a class="link link-hover">Download our app</a>
+          <a class="link link-hover flex border-2 rounded-md p-2"><img class="p-2" src="images/playstore.png" alt=""><p>GET IT ON<br><span class="text-xl">Google Play</span></p></a>
+        </nav>
+      </footer> 
+      <footer class="footer px-10 py-4 border-t bg-neutral text-neutral-content border-base-300">
+        <aside class="items-center grid-flow-col">
+          <p>@all rights reserved, eTicket services limited. 2024</p>
+        </aside> 
+        <nav class="md:place-self-center md:justify-self-end">
+          <div class="grid grid-flow-col gap-4">
+            <a>Terms & condition</a>
+            <a>Return and refund policy</a>
+            <a>Privacy policy</a>
+          </div>
+        </nav>
+      </footer>
+    </footer>
+    <script src="script.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.10.1/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</body>
+</html>
